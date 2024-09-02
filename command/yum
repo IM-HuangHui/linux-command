@@ -1,0 +1,4 @@
+#查看升级补丁：
+yum updateinfo list
+#针对某ID补丁进行升级：
+yum update --advisory=ID号
